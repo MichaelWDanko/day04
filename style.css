@@ -1,9 +1,42 @@
+body {
+    margin: 0;
+}
+
 .specials {
     background-color: orange;
     color: white;
+    margin: 0;
+    height: 35px;
 }
 
-.specials .free {
-    background-color: rgb(212, 65, 18);
-    width:
+
+/* .specials p is the FREE SHIPPING! */
+
+.specials p {
+    background-color: orangered;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 11px;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 8%;
+    margin-top: 5px;
+}
+
+.specials ul {
+    display: inline-block;
+    width: 60%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.specials ul li {
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 1%;
 }
