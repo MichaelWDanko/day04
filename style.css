@@ -192,13 +192,27 @@ header ul li {
     display: flex;
     justify-content: center;
     width: 68%;
+    position: relative;
 }
 
 .display div {
     display: inline-block;
+    position: relative;
 }
 
-.display div .p {}
+.display div p {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: tahoma, sans-serif;
+}
+
+.display img {
+    width: 90%;
+}
 
 
 /* .display div img {
