@@ -3,8 +3,8 @@ body {
 }
 
 .column {
-    margin-left: 16%;
-    margin-right: 16%;
+    padding-left: 16%;
+    padding-right: 16%;
 }
 
 .specials {
@@ -52,6 +52,7 @@ body {
 header {
     background-color: white;
     position: relative;
+    height: 128px;
 }
 
 header ul {
@@ -73,13 +74,16 @@ header ul li {
 }
 
 .cart {
-    display: inline-block;
+    display: block;
+    float: right;
     border: 1px #E0E0E0 solid;
     border-radius: 3px;
     padding: 7px;
-    position: absolute;
+    margin-top: 54px;
+    margin-right: 1%;
+    /* position: absolute;
     top: 40%;
-    right: 20%;
+    right: 20%; */
 }
 
 .cart img {
@@ -104,11 +108,11 @@ header ul li {
 
 .search {
     border: blue 1px solid;
-    display: inline-block;
+    display: block;
     background-color: white;
-    position: absolute;
+    /*    position: absolute;
     top: 45%;
-    right: 0%;
+    right: 0%; */
     line-height: 26px;
     border: 2px solid #E0E0E0;
 }
@@ -125,12 +129,12 @@ header ul li {
 }
 
 #sign-in {
-    display: inline-block;
+    display: block;
     margin: 0 0;
     padding-left: 0;
-    position: absolute;
-    top: 25%;
-    right: 0;
+    /* position: absolute;
+    top: 25%; 
+    right: 0; */
 }
 
 #sign-in li {
@@ -138,6 +142,12 @@ header ul li {
     font-size: 11px;
     font-family: tahoma, sans-serif;
     text-transform: uppercase;
+}
+
+#float-right {
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
 }
 
 
@@ -174,3 +184,43 @@ header ul li {
     font-family: tahoma, sans-serif;
     text-align: center;
 }
+
+
+/*^^^^ above this is the css for the showcase^^^^*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    width: 68%;
+}
+
+.display div {
+    display: inline-block;
+}
+
+.display div .p {}
+
+
+/* .display div img {
+    height: 60%;
+    width: 60%;
+} */
+
+
+/*
+
+.display div #bowtie {
+    height: 60%;
+    width: 60%;
+}
+
+.display div #pocket-square {
+    height: 60%;
+    width: 60%;
+}
+
+.display div #tie-bar {
+    height: 60;
+    width: 60%;
+}
+*/
