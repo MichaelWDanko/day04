@@ -215,26 +215,22 @@ header ul li {
 }
 
 
-/* .display div img {
-    height: 60%;
-    width: 60%;
-} */
+/*^^^^ABOVE THIS LINE IS THE CODE FOR THE DISPLAY^^^^*/
 
-
-/*
-
-.display div #bowtie {
-    height: 60%;
-    width: 60%;
+main p:nth-child(3) {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
 }
 
-.display div #pocket-square {
-    height: 60%;
-    width: 60%;
+main a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3296FF;
+    font-family: sans-serif;
+    letter-spacing: .2em;
+    font-weight: 300;
 }
-
-.display div #tie-bar {
-    height: 60;
-    width: 60%;
-}
-*/
