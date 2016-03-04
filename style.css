@@ -2,11 +2,16 @@ body {
     margin: 0;
 }
 
+.column {
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
 .specials {
     background-color: orange;
     color: white;
     margin: 0;
-    height: 35px;
+    height: 38px;
 }
 
 
@@ -22,7 +27,7 @@ body {
     padding-bottom: .5%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 8%;
+    margin-left: 16%;
     margin-top: 5px;
 }
 
@@ -39,4 +44,97 @@ body {
     display: inline-block;
     padding-right: 1%;
     padding-left: 1%;
+}
+
+
+/* ^^^^ABOVE THIS IS THE CSS FOR THE SPECIALS ROW^^^^ */
+
+header {
+    background-color: white;
+    position: relative;
+}
+
+header ul {
+    display: inline-block;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+#nav {
+    color: #303030;
+    font-family: tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: lighter;
+    margin: 0 0;
+    position: absolute;
+    top: 40%;
+}
+
+.cart {
+    display: inline-block;
+    border: 1px #E0E0E0 solid;
+    padding: 7px;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+
+.cart img {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+.cart p {
+    display: inline-block;
+    margin: 0 0;
+}
+
+.cart p:nth-child(3) {
+    display: inline-block;
+    margin: 0 0;
+    background-color: #C8C8C8;
+    padding: 0px;
+    border: 1px solid #C8C8C8;
+    border-radius: 3px;
+}
+
+.search {
+    border: blue 1px solid;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    line-height: 26px;
+    border: 2px solid #E0E0E0;
+}
+
+.search img {
+    height: 13px;
+    width: 13px;
+}
+
+.search input {
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#sign-in {
+    display: inline-block;
+    margin: 0 0;
+    padding-left: 0;
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+#sign-in li {
+    display: inline-block;
+    font-size: 11px;
+    font-family: tahoma, sans-serif;
+    text-transform: uppercase;
 }
