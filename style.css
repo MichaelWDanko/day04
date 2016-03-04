@@ -8,7 +8,7 @@ body {
 }
 
 .specials {
-    background-color: orange;
+    background-color: #FA6938;
     color: white;
     margin: 0;
     height: 38px;
@@ -18,7 +18,7 @@ body {
 /* .specials p is the FREE SHIPPING! */
 
 .specials p {
-    background-color: orangered;
+    background-color: #C8542D;
     text-transform: uppercase;
     font-family: sans-serif;
     display: inline-block;
@@ -75,6 +75,7 @@ header ul li {
 .cart {
     display: inline-block;
     border: 1px #E0E0E0 solid;
+    border-radius: 3px;
     padding: 7px;
     position: absolute;
     top: 40%;
@@ -137,4 +138,39 @@ header ul li {
     font-size: 11px;
     font-family: tahoma, sans-serif;
     text-transform: uppercase;
+}
+
+
+/*^^^^ABOVE THIS IS THE CSS FOR THE HEADER^^^^*/
+
+.showcase {
+    background-color: #F4F4F4;
+    border-image: url(images/perforated-bottom@2x.png) 10 round;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 5px;
+}
+
+.showcase .hanging-ties {
+    display: flex;
+    justify-content: center;
+}
+
+.showcase .hanging-ties figure {
+    display: inline-block;
+    margin: 0px 0px;
+    padding-top: 0;
+}
+
+.showcase .hanging-ties figure figcaption {
+    display: block;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+}
+
+.showcase p {
+    font-size: 60px;
+    font-family: tahoma, sans-serif;
+    text-align: center;
 }
