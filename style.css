@@ -3,8 +3,8 @@ body {
 }
 
 .column {
-    padding-left: 16%;
-    padding-right: 16%;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .specials {
@@ -56,7 +56,7 @@ header {
 }
 
 .perforated {
-    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
     -webkit-border-image: url(../images/perforated-bottom@2x.png) 0 0 44 0 repeat;
     -o-border-image: url(../images/perforated-bottom@2x.png) 0 0 44 0 repeat;
     border-image: url(../images/perforated-bottom@2x.png) 0 0 44 0 repeat;
@@ -302,4 +302,72 @@ main a {
     font-family: tahoma, sans-serif;
     font-size: 10px;
     margin-top: 4%
+}
+
+main {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #F4F4F4;
+    padding-top: 10px;
+}
+
+
+/* .footer-wrapper1 is the container for the nav bar on the bottom */
+
+.footer-wrapper1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ft-column {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 3%;
+}
+
+.ft-column ul {
+    font-weight: normal;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-wrapper2 {
+    display: inline-block;
+    background-color: #A0AEC1;
+    color: #F4F4F4;
+    font-family: tahoma, sans-serif;
+    height: 100%;
+    position: relative;
+    padding: 1%;
+    float: right
+}
+
+.footer-wrapper2 h1 {
+    font-weight: 100;
+    display: block;
+    width: 100%;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.footer-wrapper2 p {
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
+
+.footer-wrapper2 div {
+    float: right;
+    display: inline-block;
+    background-color: #119BFF;
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px #809FC8 solid;
+}
+
+.footer-wrapper2 div p {
+    display: inline;
+    margin: 0;
 }
