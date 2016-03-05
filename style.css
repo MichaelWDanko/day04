@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    position: relative;
 }
 
 .column {
@@ -137,9 +138,6 @@ header ul li {
     display: block;
     margin: 0 0;
     padding-left: 0;
-    /* position: absolute;
-    top: 25%; 
-    right: 0; */
 }
 
 #sign-in li {
@@ -157,6 +155,15 @@ header ul li {
 
 
 /*^^^^ABOVE THIS IS THE CSS FOR THE HEADER^^^^*/
+
+.img-border {
+    background-image: url(images/perforated-bottom.png);
+    background-repeat: repeat-x;
+    background-size: 44px 5px;
+    height: 6px;
+    position: relative;
+    top: -1PX
+}
 
 .showcase {
     background-color: #F4F4F4;
@@ -221,7 +228,7 @@ header ul li {
 
 /*^^^^ABOVE THIS LINE IS THE CODE FOR THE DISPLAY^^^^*/
 
-main p:nth-child(3) {
+span {
     font-size: 35px;
     font-family: sans-serif;
     font-style: italic;
@@ -320,21 +327,26 @@ footer {
 
 .footer-nav {
     display: flex;
-    justify-content: center;
-    width: 400px;
+    justify-content: space-between;
+    width: 500px;
     float: left
 }
 
 .ft-column {
     display: inline-block;
-    font-weight: bold;
+    font-weight: 600;
     margin-right: 3%;
 }
 
 .ft-column ul {
-    font-weight: normal;
+    font-weight: 300;
     list-style: none;
     padding-left: 0;
+}
+
+.ft-column ul li {
+    font-size: 14px;
+    color: #909090
 }
 
 .assist {
@@ -377,9 +389,9 @@ footer {
 
 .fine-print {
     clear: both;
-    margin:
 }
 
 .fine-print p {
-    display: inline-block,
+    display: inline-block;
+    font-size: 11px;
 }
