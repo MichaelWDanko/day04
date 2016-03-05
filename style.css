@@ -315,12 +315,10 @@ footer {
     padding-top: 10px;
 }
 
-
-/* .footer-wrapper1 is the container for the nav bar on the bottom */
-
-.footer-wrapper1 {
+.footer-nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 400px;
 }
 
 .ft-column {
@@ -335,18 +333,16 @@ footer {
     padding-left: 0;
 }
 
-.footer-wrapper2 {
+.assist {
     display: inline-block;
     background-color: #A0AEC1;
     color: #F4F4F4;
     font-family: tahoma, sans-serif;
     height: 100%;
-    position: relative;
     padding: 1%;
-    float: right
 }
 
-.footer-wrapper2 h1 {
+.assist h1 {
     font-weight: 100;
     display: block;
     width: 100%;
@@ -354,13 +350,13 @@ footer {
     margin-top: 0;
 }
 
-.footer-wrapper2 p {
+.assist p {
     display: inline-block;
     float: left;
     margin: 0;
 }
 
-.footer-wrapper2 div {
+.assist div {
     float: right;
     display: inline-block;
     background-color: #119BFF;
@@ -369,7 +365,7 @@ footer {
     border: 1px #809FC8 solid;
 }
 
-.footer-wrapper2 div p {
+.assist div p {
     display: inline;
     margin: 0;
 }
