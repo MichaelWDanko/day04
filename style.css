@@ -53,6 +53,9 @@ header {
     background-color: white;
     position: relative;
     height: 128px;
+}
+
+.perforated {
     border-top: 5px solid transparent;
     -webkit-border-image: url(../images/perforated-bottom@2x.png) 0 0 44 0 repeat;
     -o-border-image: url(../images/perforated-bottom@2x.png) 0 0 44 0 repeat;
@@ -109,9 +112,6 @@ header ul li {
     border: 1px solid #C8C8C8;
     border-radius: 3px;
 }
-
-
-/*If the .search bar gets messed up, switch it to display    display: block; */
 
 .input-field {
     background-color: white;
@@ -289,4 +289,17 @@ main a {
     letter-spacing: normal;
     text-transform: none;
     font-style: normal;
+}
+
+.content .sub-content button {
+    display: block;
+    text-transform: uppercase;
+    background-color: #119BFF;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3%;
+    font-family: tahoma, sans-serif;
+    font-size: 10px;
+    margin-top: 4%
 }
