@@ -5,6 +5,7 @@ body {
 .column {
     margin-left: 10%;
     margin-right: 10%;
+    position: relative;
 }
 
 .specials {
@@ -313,12 +314,15 @@ main {
 footer {
     background-color: #F4F4F4;
     padding-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
 }
 
 .footer-nav {
     display: flex;
     justify-content: center;
     width: 400px;
+    float: left
 }
 
 .ft-column {
@@ -338,8 +342,9 @@ footer {
     background-color: #A0AEC1;
     color: #F4F4F4;
     font-family: tahoma, sans-serif;
-    height: 100%;
     padding: 1%;
+    float: right;
+    margin-top: 10px;
 }
 
 .assist h1 {
@@ -368,4 +373,13 @@ footer {
 .assist div p {
     display: inline;
     margin: 0;
+}
+
+.fine-print {
+    clear: both;
+    margin:
+}
+
+.fine-print p {
+    display: inline-block,
 }
