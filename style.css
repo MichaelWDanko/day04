@@ -110,15 +110,15 @@ header ul li {
     border-radius: 3px;
 }
 
-.search {
-    border: blue 1px solid;
-    display: block;
+
+/*If the .search bar gets messed up, switch it to display    display: block; */
+
+.input-field {
     background-color: white;
-    /*    position: absolute;
-    top: 45%;
-    right: 0%; */
     line-height: 26px;
     border: 2px solid #E0E0E0;
+    border-radius: 3px;
+    padding-left: 5px
 }
 
 .search img {
@@ -247,3 +247,46 @@ main a {
 
 
 /*^^^^ABOVE THIS LINE IS THE CODE FOR THE THREE IMAGES*/
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold
+}
+
+.content .sub-content .label {
+    font-weight: bold;
+}
+
+.content .sub-content {
+    width: 100%;
+    display: inline-block;
+    margin: 0 1%
+}
+
+.content .sub-content img {
+    width: 100%;
+}
+
+.content .sub-content p {
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.content .sub-content .icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.content .sub-content a {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    font-family: tahoma, sans-serif;
+    letter-spacing: normal;
+    text-transform: none;
+    font-style: normal;
+}
