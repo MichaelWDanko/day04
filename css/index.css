@@ -156,6 +156,168 @@ header ul li {
 
 /*^^^^ABOVE THIS IS THE CSS FOR THE HEADER^^^^*/
 
+.img-border {
+    background-image: url(images/perforated-bottom.png);
+    background-repeat: repeat-x;
+    background-size: 44px 5px;
+    height: 6px;
+    position: relative;
+    top: -1PX
+}
+
+.showcase {
+    background-color: #F4F4F4;
+}
+
+.showcase .hanging-ties {
+    display: flex;
+    justify-content: center;
+}
+
+.showcase .hanging-ties figure {
+    display: inline-block;
+    margin: 0px 0px;
+    padding-top: 0;
+    position: relative;
+    top: -1px;
+}
+
+.showcase .hanging-ties figure figcaption {
+    display: block;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+}
+
+.showcase p {
+    font-size: 60px;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+}
+
+
+/*^^^^ above this is the css for the showcase^^^^*/
+
+.display {
+    display: flex;
+    justify-content: center;
+    width: 68%;
+    position: relative;
+}
+
+.display div {
+    display: inline-block;
+    position: relative;
+    left: 10%
+}
+
+.display div p {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: tahoma, sans-serif;
+}
+
+.display img {
+    width: 90%;
+    position: relative;
+}
+
+
+/*^^^^ABOVE THIS LINE IS THE CODE FOR THE DISPLAY^^^^*/
+
+span {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5%;
+}
+
+main a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3296FF;
+    font-family: sans-serif;
+    letter-spacing: .2em;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+#x-image {
+    background-image: url(images/hatch-light.png);
+    background-repeat: repeat-x;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+/*^^^^ABOVE THIS LINE IS THE CODE FOR THE THREE IMAGES*/
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold
+}
+
+.content .sub-content .label {
+    font-weight: bold;
+}
+
+.content .sub-content {
+    width: 100%;
+    display: inline-block;
+    margin: 0 1%
+}
+
+.content .sub-content img {
+    width: 100%;
+}
+
+.content .sub-content p {
+    font-family: tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.content .sub-content .icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.content .sub-content a {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    font-family: tahoma, sans-serif;
+    letter-spacing: normal;
+    text-transform: none;
+    font-style: normal;
+}
+
+.content .sub-content button {
+    display: block;
+    text-transform: uppercase;
+    background-color: #119BFF;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3%;
+    font-family: tahoma, sans-serif;
+    font-size: 10px;
+    margin-top: 4%
+}
+
+main {
+    margin-bottom: 0;
+}
+
 footer {
     background-color: #F4F4F4;
     padding-top: 10px;
@@ -233,6 +395,3 @@ footer {
     display: inline-block;
     font-size: 11px;
 }
-
-
-/*^^^^ABOVE THIS IS THE CSS FOR THE FOOTER^^^^*/
