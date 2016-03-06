@@ -143,19 +143,6 @@ main a {
     font-style: normal;
 }
 
-.content .sub-content button {
-    display: block;
-    text-transform: uppercase;
-    background-color: #119BFF;
-    color: white;
-    border: none;
-    border-radius: 2px;
-    padding: 3%;
-    font-family: tahoma, sans-serif;
-    font-size: 10px;
-    margin-top: 4%
-}
-
 main {
     margin-bottom: 0;
 }
